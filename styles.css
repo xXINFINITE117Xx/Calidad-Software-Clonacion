@@ -1,0 +1,344 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    position: relative;
+    margin: 100px auto;
+    width: 27%;
+}
+
+.text-block {
+    text-align: center;
+}
+
+.text-block p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.divs-4 {
+    margin-top: 28%;
+    background-color: #00c4fb;
+    padding: 40px 0;
+}
+
+.container-divs-4 {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container-divs-4 div {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: #00c4fb;
+}
+
+.container-divs-4 i {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.container-divs-4 h2 {
+    font-size: 24px;
+    color: white;
+}
+
+.container-divs-4 p {
+    font-size: 16px;
+    color: white;
+}
+
+.container-images {
+    display: grid;
+    margin: 23%;
+    margin-top: 3%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; /* Espacio entre las imágenes */
+}
+
+.container-images div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px; /* Espacio debajo de cada imagen */
+}
+
+.container-images img {
+    width: 101%;
+    height: 112%;
+    margin: 0 auto;/* Centrar la imagen en su contenedor */
+}
+.nav-2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: none;
+    padding: 20px;
+}
+
+.container-video {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -19%;
+    background-color: #757575; /* Color de fondo para la sección */
+    padding: 20px; /* Añadir un espacio interno a la sección */
+}
+
+.container-video div {
+    padding: 20px;
+    margin: 1rem;
+}
+
+
+.container-video img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.description {
+    font-size: 18px;
+    color: white;
+    line-height: 1.6em;
+}
+
+.VISIT-ME {
+    background: transparent;
+    color: black;
+    border: 2px solid;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px; /* Color del texto en la sección */
+}
+
+.container-twitter {
+    display: flex;
+    align-items: center;
+    padding: 6rem;
+    background-color: #00c4fb;
+    flex-direction: row;
+    justify-content: center;
+}
+    
+
+
+.twitter {
+    margin: 0; /* Elimina el margen predeterminado del encabezado */
+}
+
+.twitter-icon {
+    font-size: 2em; /* Tamaño del ícono */
+    margin-left: 10px; /* Espacio entre el texto y el ícono */
+}
+
+.container-divs-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem;
+    gap: 3rem;
+    background: url(hombre-camara.jpg) center/cover no-repeat fixed;
+    color: white;
+}
+
+
+.container-divs-2 > div {
+    flex: 1;
+}
+
+.icons-socials {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.icons-socials i {
+    font-size: 5rem;
+    border: 2px solid;
+}
+
+.container-testimonials {
+    display: flex;
+    align-items: center;
+    padding: 6rem;
+    background-color: white;
+    flex-direction: row;
+    justify-content: center;
+}
+    
+.icon-comillas {
+    font-size: 2em; /* Tamaño del ícono */
+    margin-left: 10px; /* Espacio entre el texto y el ícono */
+}
+
+.imagen-cafe {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem;
+    gap: 3rem;
+    background: url(imagen-cafe.jpg) center/cover no-repeat fixed;
+    color: white;
+}
+
+.container-Contact-me {
+    position: relative;
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    height: 400px; /* Ajusta la altura según tus necesidades */
+}
+
+.imagen-cafe {
+    width: 95.7rem;
+    height: 100%;
+    background-image: url('imagen-cafe.jpg'); /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta correcta de tu imagen */
+    background-size: cover; /* Ajusta según tus necesidades */
+    background-position: center; /* Ajusta según tus necesidades */
+}
+
+.contenido {
+    position: absolute;
+    top: 7rem;
+    left: 42rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.formulario {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+textarea {
+    width: 48rem;
+    padding: 16%;
+    margin-bottom: 10px;
+    border-color: white;
+    background: transparent;
+    color: white;
+}
+
+input {
+    background: transparent;
+    border-color: white;
+    height: 30%;
+    width: 28rem;
+    color: white;
+}
+
+
+.aditional-description {
+    width: 32rem;
+    position: relative;
+    color: white;
+    top: -35.2rem;
+    left: 58rem;
+}
+
+h6 {
+    position: relative;
+    right: 19.2rem;
+    font-size: 2rem;
+    top: 10%;
+}
+
+.message {
+    background: #00c4fb;
+    width: 50%;
+    color: white;
+    border: 2px solid;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px; 
+}
+
+footer {
+    display: flex;
+    position: relative;
+    top: 20rem;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: center;
+    padding: 4rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+/* Estilos para los enlaces del footer */
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Estilos para el copy */
+.copy {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+@media screen and (min-width: 352px) and (max-width: 480px) {
+}
+
+  
