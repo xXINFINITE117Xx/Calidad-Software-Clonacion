@@ -397,8 +397,8 @@ footer a {
 
     .container-divs-4 div {
         flex: 1;
-        margin: 5px;
-        padding: 10px;
+        border: 3px solid;
+        border-radius: 30px;
     }
 
     .container-divs-4 i {
@@ -522,10 +522,12 @@ footer a {
     .container-divs-2 {
         padding: 5rem;
         gap: 1.5rem;
-        justify-content: center;
+        display: flex;
         text-align: center;
         background-size: cover;
         background-position: center;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .container-divs-2 > div {
