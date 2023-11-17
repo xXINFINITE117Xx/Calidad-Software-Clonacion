@@ -10,7 +10,7 @@ body {
 
 .background-image {
     position: absolute;
-    top: 0;
+    top: -71%;
     left: 0;
     width: 100%;
     height: auto;
@@ -231,28 +231,24 @@ nav {
     gap: 3rem;
     background: url(imagen-cafe.jpg) center/cover no-repeat fixed;
     color: white;
+    width: 88.1rem;
+    height: 100%; 
+    background-size: cover; 
+    background-position: center;
 }
 
 .container-Contact-me {
     position: relative;
-    width: 300px; /* Ajusta el ancho según tus necesidades */
-    height: 400px; /* Ajusta la altura según tus necesidades */
-}
-
-.imagen-cafe {
-    width: 95.7rem;
-    height: 100%;
-    background-image: url('imagen-cafe.jpg'); /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta correcta de tu imagen */
-    background-size: cover; /* Ajusta según tus necesidades */
-    background-position: center; /* Ajusta según tus necesidades */
+    width: 300px; 
+    height: 400px; 
 }
 
 .contenido {
     position: absolute;
-    top: 7rem;
-    left: 42rem;
-    width: 100%;
-    height: 100%;
+    top: -3rem;
+    left: 20rem;
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -286,11 +282,11 @@ input {
 
 
 .aditional-description {
-    width: 32rem;
+    width: 24rem;
     position: relative;
     color: white;
-    top: -35.2rem;
-    left: 58rem;
+    top: -35.9rem;
+    left: 53rem;
 }
 
 h6 {
@@ -324,14 +320,13 @@ footer {
     align-items: flex-end;
 }
 
-/* Estilos para los enlaces del footer */
 footer a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
 }
 
-/* Estilos para el copy */
+
 .copy {
     margin-top: 20px;
     font-size: 14px;
@@ -339,6 +334,214 @@ footer a {
 }
 
 @media screen and (min-width: 352px) and (max-width: 480px) {
+    .container {
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    .menu {
+        text-align: center;
+    }
+
+    .menu li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .menu a {
+        display: block;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .background-image {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: -1;
+    }
+    .content {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        position: relative;
+        margin: 50px auto;
+        width: 80%;
+    }
+
+    .text-block {
+        text-align: center;
+    }
+
+    .text-block p {
+        font-size: 16px;
+        margin: 8px 0;
+    }
+
+    .divs-4 {
+        margin-top: 10%;
+        padding: 20px 0;
+    }
+
+    .container-divs-4 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-divs-4 div {
+        flex: 1;
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .container-divs-4 i {
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+
+    .container-divs-4 h2 {
+        font-size: 18px;
+        color: white;
+    }
+
+    .container-divs-4 p {
+        font-size: 14px;
+        color: white;
+    }
+
+    .container-images {
+        display: grid;
+        margin: 5%;
+        margin-top: 3%;
+        margin-bottom: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px; /* Espacio entre las imágenes */
+    }
+
+    .container-images div {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px; /* Espacio debajo de cada imagen */
+    }
+
+    .container-images img {
+        width: 100%;
+        height: 10rem;
+        margin: 0 auto; /* Centrar la imagen en su contenedor */
+    }
+
+    .nav-2 {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    nav {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 10px;
+        text-align: center;
+    }
+
+    .container-video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -10%;
+        background-color: #757575; /* Color de fondo para la sección */
+        padding: 10px; /* Añadir un espacio interno a la sección */
+    }
+
+    .container-video div {
+        text-align: center;
+        padding: 10px;
+        margin: 0.5rem;
+    }
+
+    .container-video img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .description {
+        font-size: 14px;
+        color: white;
+        line-height: 1.4em;
+        text-align: center;
+    }
+
+    .VISIT-ME {
+        background: transparent;
+        color: black;
+        border: 2px solid;
+        padding: 8px 16px;
+        cursor: pointer;
+        font-size: 14px;
+        border-radius: 5px; /* Color del texto en la sección */
+        margin-top: 10px;
+    }
+
+    .imagen-cafe {
+        padding: 5rem;
+        gap: 1.5rem;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contenido {
+        top: -1.5rem;
+        left: 1rem;
+    }
+
+    .formulario textarea {
+        width: 90%;
+        padding: 12px;
+    }
+
+    .formulario input {
+        width: 90%;
+    }
+
+    .aditional-description {
+        width: 90%;
+        top: -31rem;
+        left: 1rem;
+    }
+    .container-divs-2 {
+        padding: 5rem;
+        gap: 1.5rem;
+        justify-content: center;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container-divs-2 > div {
+        flex: 1;
+        margin-bottom: 2rem;
+    }
+
+    .icons-socials {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .icons-socials i {
+        font-size: 3.5rem;
+    }
 }
 
   
