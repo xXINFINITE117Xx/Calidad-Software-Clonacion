@@ -179,8 +179,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0; 
-    background-color: #6b6b6b; 
+    padding: 50px 26rem;
+    background-color: #6b6b6b
   }
   
   .container-video > div {
@@ -244,6 +244,11 @@ body {
   
 
 .container-divs-2 {
+    background-image: url(hombre-camara.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
     padding: 50px 0;
     background-color: #f9f9f9;
@@ -253,6 +258,7 @@ body {
   
   .container-divs-2 div {
     flex-basis: 45%;
+    color: white;
   }
   
   .container-divs-2 h5 {
@@ -263,7 +269,6 @@ body {
   .container-divs-2 .second-description {
     font-size: 16px;
     line-height: 1.6;
-    color: #666;
     margin-bottom: 20px;
   }
   
@@ -325,11 +330,16 @@ body {
 
 
 .Section-Contact-Me {
+    background-image: url(imagen-cafe.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px 0; 
-    background-color: #f9f9f9; 
+    color: white;
   }
   
   .container-Contact-me {
@@ -346,7 +356,6 @@ body {
   }
   
   .imagen-cafe .contenido {
-    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -395,7 +404,6 @@ body {
   .aditional-description p {
     font-size: 16px;
     line-height: 1.6;
-    color: #666;
     margin-bottom: 15px;
   }
 
