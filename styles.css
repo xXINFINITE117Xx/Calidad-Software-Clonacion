@@ -452,6 +452,7 @@ footer a {
     }
 
     .container-video {
+        width: 106%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -494,7 +495,7 @@ footer a {
     .imagen-cafe {
         padding: 5rem;
         gap: 1.5rem;
-        width: 100%;
+        width: 77%;
         height: auto;
         background-size: cover;
         background-position: center;
@@ -520,6 +521,7 @@ footer a {
         left: 1rem;
     }
     .container-divs-2 {
+        width: 23.5rem;
         padding: 5rem;
         gap: 1.5rem;
         display: flex;
