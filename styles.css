@@ -10,6 +10,9 @@ header {
   padding: 20px;
 }
 
+.Color-blue-E {
+  color: #00cbf7;
+}
 
 nav {
   display: flex;
@@ -71,6 +74,8 @@ nav {
   }
   
   .text-block p {
+    display: inline;
+    background: #00ffff69;
     font-size: 24px;
     font-weight: bold;
   }
@@ -96,8 +101,36 @@ nav {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     margin: 10px;
+    cursor: pointer;
+    outline: 2px solid transparent;
+    transition: transform 0.5s; 
+}
+
+.container-divs-4 > div:hover {
+  transform: scale(1.1);
+  animation-name: changeOutlineColor;
+  animation-duration: 3s; 
+  animation-timing-function: linear; 
+  animation-iteration-count: infinite; 
+}
+
+@keyframes changeOutlineColor {
+  0% {
+    outline-color: red; 
   }
-  
+  25% {
+    outline-color: blue; 
+  }
+  50% {
+    outline-color: green; 
+  }
+  75% {
+    outline-color: yellow; 
+  }
+  100% {
+    outline-color: red;
+  }
+}
   .container-divs-4 h2 {
     margin-top: 20px;
     font-size: 24px;
@@ -357,9 +390,9 @@ nav {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  .imagen-cafe h6 {
+   h6 {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 2rem;
   }
   
   .formulario {
@@ -375,8 +408,10 @@ nav {
   .formulario textarea {
     margin-bottom: 10px;
     padding: 8px;
+    color: white;
     border-radius: 4px;
     border: 1px solid #ccc;
+    background: transparent;
   }
   
   .formulario button {
