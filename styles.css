@@ -1,4 +1,7 @@
-  body {
+ html {
+   scroll-behavior: smooth;
+ }
+ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -454,12 +457,20 @@ footer {
     padding: 10px; 
   }
 
+  nav {
+    display: block;
+    text-align: center;
+  }
+
   .logo {
     font-size: 18px; 
   }
 
   .menu {
-    flex-direction: column; 
+    padding: 0;
+    font-size: 0.72rem;
+    gap: 1rem;
+    flex-direction: row;
     align-items: center; 
   }
 
@@ -498,7 +509,7 @@ footer {
 
   .text-block p {
     display: inline;
-    background: #00ffff69;
+    background: #00800099;
     font-size: 16px;
     font-weight: bold; 
   }
@@ -553,12 +564,20 @@ footer {
     padding: 20px; 
   }
 
+  .container-images img {
+    border: 2px solid;
+    border-radius: 8%;
+    border-color: white;
+  }
+
   .container-images div {
     padding: 10px; 
   }
 
   .container-video {
-    padding: 20px; 
+    display: flex;
+    padding: 20px;
+    flex-direction: column; 
   }
 
   .container-video > div {
