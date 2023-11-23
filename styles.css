@@ -237,7 +237,6 @@ nav {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-/* Estilos para la sección container-twitter */
 .container-twitter {
     display: flex;
     color: white;
@@ -379,17 +378,6 @@ nav {
     margin: 0 auto;
   }
   
-  .imagen-cafe {
-    flex-basis: 50%;
-    padding: 20px;
-  }
-  
-  .imagen-cafe .contenido {
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
    h6 {
     font-size: 24px;
     margin-bottom: 2rem;
@@ -458,4 +446,276 @@ footer {
   color: #fff; 
   text-decoration: none;
   margin-right: 20px; 
+}
+
+/*Media Query 352px until 480px */
+
+@media screen and (max-width: 480px) and (min-width: 352px) {
+  header {
+    padding: 10px; 
+  }
+
+  .logo {
+    font-size: 18px; 
+  }
+
+  .menu {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .menu li {
+    margin: 10px 0; 
+    text-align: center; 
+  }
+
+  .hero {
+    height: 300px; 
+  }
+
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .content {
+    text-align: center; 
+    color: white; 
+  }
+
+  .text-block p {
+    display: inline;
+    background: #00ffff69;
+    font-size: 16px;
+    font-weight: bold; 
+  }
+
+  .divs-4 {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    padding: 20px 0; 
+  }
+
+  .container-divs-4 {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%; 
+  }
+
+  .container-divs-4 > div {
+    flex-basis: calc(50% - 20px);
+    margin: 10px; 
+    padding: 10px;
+    font-size: 14px; 
+  }
+
+  .container-divs-4 h2 {
+    font-size: 20px; 
+  }
+
+  .container-divs-4 p {
+    font-size: 14px; 
+  }
+
+  .nav-2 {
+    height: auto; 
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 10px; 
+  }
+
+  .nav-2 .logo {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .nav-2 .menu li {
+    display: block; 
+    margin: 10px 0; 
+  }
+
+  .container-images {
+    grid-template-columns: repeat(2, 1fr); 
+    padding: 20px; 
+  }
+
+  .container-images div {
+    padding: 10px; 
+  }
+
+  .container-video {
+    padding: 20px; 
+  }
+
+  .container-video > div {
+    max-width: 100%; 
+    padding: 10px; 
+  }
+
+  .container-video h3 {
+    font-size: 24px; 
+  }
+
+  .container-video .description {
+    font-size: 14px; 
+    margin-bottom: 10px;
+  }
+
+  .container-video img {
+    border-radius: 0;
+    box-shadow: none; 
+  }
+
+  .container-twitter {
+    padding: 20px; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    text-align: center; 
+  }
+
+  .container-twitter div {
+    max-width: 100%;
+    margin: 10px 0; 
+  }
+
+  .container-twitter h4.twitter {
+    font-size: 20px; 
+    margin-bottom: 5px; 
+  }
+
+  .container-twitter .twitter-icon {
+    flex-basis: 100%; 
+    margin-bottom: 10px; 
+  }
+
+  .container-twitter .twitter-icon i {
+    font-size: 30px; 
+  }
+
+  .container-divs-2 {
+    padding: 20px; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    text-align: center; 
+  }
+
+  .container-divs-2 div {
+    flex-basis: 100%; 
+    margin-bottom: 20px; 
+  }
+
+  .container-divs-2 h5 {
+    font-size: 20px; 
+    margin-bottom: 5px; 
+  }
+
+  .container-divs-2 .second-description {
+    font-size: 14px; 
+    margin-bottom: 15px; 
+  }
+
+  .container-divs-2 .icons-socials {
+    flex-wrap: wrap; 
+    margin-top: 10px;
+  }
+
+  .container-testimonials {
+    padding: 20px; 
+    justify-content: center; 
+  }
+
+  .container-testimonials div {
+    max-width: 100%; 
+    margin-bottom: 20px; 
+  }
+
+  .container-testimonials h4 {
+    font-size: 20px; 
+    margin-bottom: 5px; 
+  }
+
+  .container-testimonials p {
+    font-size: 14px; 
+    margin-bottom: 15px; 
+  }
+
+  .container-testimonials .icon-comillas {
+    flex-basis: 100%; 
+    margin-bottom: 10px; 
+  }
+
+  .container-testimonials .icon-comillas i {
+    font-size: 30px;
+  }
+
+  .Section-Contact-Me {
+    padding: 30px 0; 
+    text-align: center; 
+  }
+
+  .container-Contact-me {
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 0 20px; 
+  }
+
+  .container-Contact-me {
+    flex-direction: column; 
+    justify-content: center; 
+    text-align: center; 
+  }
+
+  h6 {
+    font-size: 20px; 
+    margin-bottom: 1.5rem; 
+  }
+
+  .aditional-description {
+    flex-basis: 100%; 
+    margin-top: 20px; 
+    padding: 0; 
+  }
+
+  .aditional-description p {
+    font-size: 14px; 
+    margin-bottom: 10px; 
+  }
+
+  .formulario input,
+  .formulario textarea,
+  .formulario button {
+    width: 100%; 
+  }
+
+  footer {
+    flex-direction: column; 
+    height: auto;
+    padding: 10px; 
+    text-align: center;
+  }
+
+  .links {
+    margin-top: 10px;
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .links a {
+    margin: 5px 0; 
+  }
 }
