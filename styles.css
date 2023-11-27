@@ -485,7 +485,7 @@ footer {
 
 /*Media Query 352px until 480px */
 
-@media screen and (max-width: 480px) and (min-width: 352px) {
+@media screen and (min-width: 352px) and (max-width: 480px) {
   header {
     padding: 10px; 
   }
@@ -502,7 +502,8 @@ footer {
   .menu {
     padding: 0;
     font-size: 0.72rem;
-    gap: 0.9rem;
+    justify-content: center;
+    gap: 1.2rem;
     flex-direction: row;
     align-items: center; 
   }
@@ -758,16 +759,17 @@ footer {
   }
 
   footer {
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column-reverse;
     height: auto;
-    padding: 10px; 
+    padding: 10px;
     text-align: center;
   }
 
   .links {
     margin-top: 10px;
-    flex-direction: column; 
     align-items: center;
+    gap: 1rem;
   }
 
   .links a {
