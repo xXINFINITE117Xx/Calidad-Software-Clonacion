@@ -689,8 +689,12 @@ footer {
   }
 
   .container-testimonials {
-    padding: 20px; 
-    justify-content: center; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .container-testimonials div {
